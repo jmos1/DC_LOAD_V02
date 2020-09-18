@@ -1,0 +1,1779 @@
+EESchema Schematic File Version 4
+LIBS:DC_LOAD_V02-cache
+EELAYER 30 0
+EELAYER END
+$Descr A3 16535 11693
+encoding utf-8
+Sheet 4 5
+Title "Current Control and Vsense"
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L DC_LOAD_V02:MMBT3904LT3G Q?
+U 1 1 60FC11F9
+P 14600 8250
+AR Path="/60FC11F9" Ref="Q?"  Part="1" 
+AR Path="/60B6EA67/60FC11F9" Ref="Q?"  Part="1" 
+AR Path="/60EA1CC4/60F99ABD/60FC11F9" Ref="Q?"  Part="1" 
+AR Path="/60FAF7BA/60FC11F9" Ref="Q?"  Part="1" 
+AR Path="/610FA5C9/60FC11F9" Ref="Q?"  Part="1" 
+AR Path="/5F3F34D3/60FC11F9" Ref="Q7"  Part="1" 
+AR Path="/5F40DB5F/60FC11F9" Ref="Q?"  Part="1" 
+F 0 "Q7" H 14450 8100 50  0000 L CNN
+F 1 "MMBT3904LT3G" H 14050 8025 50  0000 L CNN
+F 2 "Jlib_Packages:SOT-23" H 14575 7875 50  0001 C CNN
+F 3 "" H 14575 7875 50  0001 C CNN
+	1    14600 8250
+	1    0    0    -1  
+$EndComp
+$Comp
+L DC_LOAD_V02:MMBT3904LT3G Q?
+U 1 1 60FC11FF
+P 13600 7000
+AR Path="/60FC11FF" Ref="Q?"  Part="1" 
+AR Path="/60B6EA67/60FC11FF" Ref="Q?"  Part="1" 
+AR Path="/60EA1CC4/60F99ABD/60FC11FF" Ref="Q?"  Part="1" 
+AR Path="/60FAF7BA/60FC11FF" Ref="Q?"  Part="1" 
+AR Path="/610FA5C9/60FC11FF" Ref="Q?"  Part="1" 
+AR Path="/5F3F34D3/60FC11FF" Ref="Q5"  Part="1" 
+AR Path="/5F40DB5F/60FC11FF" Ref="Q?"  Part="1" 
+F 0 "Q5" H 13425 6875 50  0000 L CNN
+F 1 "MMBT3904LT3G" H 13050 6800 50  0000 L CNN
+F 2 "Jlib_Packages:SOT-23" H 13575 6625 50  0001 C CNN
+F 3 "" H 13575 6625 50  0001 C CNN
+	1    13600 7000
+	1    0    0    -1  
+$EndComp
+$Comp
+L DC_LOAD_V02:MMBT3904LT3G Q?
+U 1 1 60FC1205
+P 11600 4500
+AR Path="/60FC1205" Ref="Q?"  Part="1" 
+AR Path="/60B6EA67/60FC1205" Ref="Q?"  Part="1" 
+AR Path="/60EA1CC4/60F99ABD/60FC1205" Ref="Q?"  Part="1" 
+AR Path="/60FAF7BA/60FC1205" Ref="Q?"  Part="1" 
+AR Path="/610FA5C9/60FC1205" Ref="Q?"  Part="1" 
+AR Path="/5F3F34D3/60FC1205" Ref="Q1"  Part="1" 
+AR Path="/5F40DB5F/60FC1205" Ref="Q?"  Part="1" 
+F 0 "Q1" H 11450 4350 50  0000 L CNN
+F 1 "MMBT3904LT3G" H 11050 4275 50  0000 L CNN
+F 2 "Jlib_Packages:SOT-23" H 11575 4125 50  0001 C CNN
+F 3 "" H 11575 4125 50  0001 C CNN
+	1    11600 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 60FC120B
+P 12000 4825
+AR Path="/60FC120B" Ref="R?"  Part="1" 
+AR Path="/60B6EA67/60FC120B" Ref="R?"  Part="1" 
+AR Path="/60EA1CC4/60F99ABD/60FC120B" Ref="R?"  Part="1" 
+AR Path="/60FAF7BA/60FC120B" Ref="R?"  Part="1" 
+AR Path="/610FA5C9/60FC120B" Ref="R?"  Part="1" 
+AR Path="/5F3F34D3/60FC120B" Ref="R29"  Part="1" 
+AR Path="/5F40DB5F/60FC120B" Ref="R?"  Part="1" 
+F 0 "R29" H 12068 4871 50  0000 L CNN
+F 1 "0R1" H 12068 4780 50  0000 L CNN
+F 2 "Jlib_Packages:R_Radial_0R1_Riedon_MSR3" V 12040 4815 50  0001 C CNN
+F 3 "~" H 12000 4825 50  0001 C CNN
+	1    12000 4825
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 60FC1211
+P 14000 7325
+AR Path="/60FC1211" Ref="R?"  Part="1" 
+AR Path="/60B6EA67/60FC1211" Ref="R?"  Part="1" 
+AR Path="/60EA1CC4/60F99ABD/60FC1211" Ref="R?"  Part="1" 
+AR Path="/60FAF7BA/60FC1211" Ref="R?"  Part="1" 
+AR Path="/610FA5C9/60FC1211" Ref="R?"  Part="1" 
+AR Path="/5F3F34D3/60FC1211" Ref="R31"  Part="1" 
+AR Path="/5F40DB5F/60FC1211" Ref="R?"  Part="1" 
+F 0 "R31" H 14068 7371 50  0000 L CNN
+F 1 "0R1" H 14068 7280 50  0000 L CNN
+F 2 "Jlib_Packages:R_Radial_0R1_Riedon_MSR3" V 14040 7315 50  0001 C CNN
+F 3 "~" H 14000 7325 50  0001 C CNN
+	1    14000 7325
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 60FC1217
+P 10525 4500
+AR Path="/60FC1217" Ref="R?"  Part="1" 
+AR Path="/60B6EA67/60FC1217" Ref="R?"  Part="1" 
+AR Path="/60EA1CC4/60F99ABD/60FC1217" Ref="R?"  Part="1" 
+AR Path="/60FAF7BA/60FC1217" Ref="R?"  Part="1" 
+AR Path="/610FA5C9/60FC1217" Ref="R?"  Part="1" 
+AR Path="/5F3F34D3/60FC1217" Ref="R18"  Part="1" 
+AR Path="/5F40DB5F/60FC1217" Ref="R?"  Part="1" 
+F 0 "R18" V 10475 4600 50  0000 L CNN
+F 1 "1KR" V 10475 4250 50  0000 L CNN
+F 2 "Jlib_Packages:0805_2012Metric_Reflow" V 10565 4490 50  0001 C CNN
+F 3 "~" H 10525 4500 50  0001 C CNN
+	1    10525 4500
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 60FC121D
+P 10525 5750
+AR Path="/60FC121D" Ref="R?"  Part="1" 
+AR Path="/60B6EA67/60FC121D" Ref="R?"  Part="1" 
+AR Path="/60EA1CC4/60F99ABD/60FC121D" Ref="R?"  Part="1" 
+AR Path="/60FAF7BA/60FC121D" Ref="R?"  Part="1" 
+AR Path="/610FA5C9/60FC121D" Ref="R?"  Part="1" 
+AR Path="/5F3F34D3/60FC121D" Ref="R20"  Part="1" 
+AR Path="/5F40DB5F/60FC121D" Ref="R?"  Part="1" 
+F 0 "R20" V 10575 5500 50  0000 L CNN
+F 1 "1KR" V 10575 5850 50  0000 L CNN
+F 2 "Jlib_Packages:0805_2012Metric_Reflow" V 10565 5740 50  0001 C CNN
+F 3 "~" H 10525 5750 50  0001 C CNN
+	1    10525 5750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 60FC1223
+P 10525 3850
+AR Path="/60FC1223" Ref="R?"  Part="1" 
+AR Path="/60B6EA67/60FC1223" Ref="R?"  Part="1" 
+AR Path="/60EA1CC4/60F99ABD/60FC1223" Ref="R?"  Part="1" 
+AR Path="/60FAF7BA/60FC1223" Ref="R?"  Part="1" 
+AR Path="/610FA5C9/60FC1223" Ref="R?"  Part="1" 
+AR Path="/5F3F34D3/60FC1223" Ref="R17"  Part="1" 
+AR Path="/5F40DB5F/60FC1223" Ref="R?"  Part="1" 
+F 0 "R17" V 10575 3600 50  0000 L CNN
+F 1 "1KR" V 10575 3950 50  0000 L CNN
+F 2 "Jlib_Packages:0805_2012Metric_Reflow" V 10565 3840 50  0001 C CNN
+F 3 "~" H 10525 3850 50  0001 C CNN
+	1    10525 3850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 60FC1229
+P 10525 6350
+AR Path="/60FC1229" Ref="R?"  Part="1" 
+AR Path="/60B6EA67/60FC1229" Ref="R?"  Part="1" 
+AR Path="/60EA1CC4/60F99ABD/60FC1229" Ref="R?"  Part="1" 
+AR Path="/60FAF7BA/60FC1229" Ref="R?"  Part="1" 
+AR Path="/610FA5C9/60FC1229" Ref="R?"  Part="1" 
+AR Path="/5F3F34D3/60FC1229" Ref="R21"  Part="1" 
+AR Path="/5F40DB5F/60FC1229" Ref="R?"  Part="1" 
+F 0 "R21" V 10575 6100 50  0000 L CNN
+F 1 "1KR" V 10575 6450 50  0000 L CNN
+F 2 "Jlib_Packages:0805_2012Metric_Reflow" V 10565 6340 50  0001 C CNN
+F 3 "~" H 10525 6350 50  0001 C CNN
+	1    10525 6350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 60FC122F
+P 10525 8250
+AR Path="/60FC122F" Ref="R?"  Part="1" 
+AR Path="/60B6EA67/60FC122F" Ref="R?"  Part="1" 
+AR Path="/60EA1CC4/60F99ABD/60FC122F" Ref="R?"  Part="1" 
+AR Path="/60FAF7BA/60FC122F" Ref="R?"  Part="1" 
+AR Path="/610FA5C9/60FC122F" Ref="R?"  Part="1" 
+AR Path="/5F3F34D3/60FC122F" Ref="R24"  Part="1" 
+AR Path="/5F40DB5F/60FC122F" Ref="R?"  Part="1" 
+F 0 "R24" V 10575 8000 50  0000 L CNN
+F 1 "1KR" V 10575 8350 50  0000 L CNN
+F 2 "Jlib_Packages:0805_2012Metric_Reflow" V 10565 8240 50  0001 C CNN
+F 3 "~" H 10525 8250 50  0001 C CNN
+	1    10525 8250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 60FC1235
+P 10525 7000
+AR Path="/60FC1235" Ref="R?"  Part="1" 
+AR Path="/60B6EA67/60FC1235" Ref="R?"  Part="1" 
+AR Path="/60EA1CC4/60F99ABD/60FC1235" Ref="R?"  Part="1" 
+AR Path="/60FAF7BA/60FC1235" Ref="R?"  Part="1" 
+AR Path="/610FA5C9/60FC1235" Ref="R?"  Part="1" 
+AR Path="/5F3F34D3/60FC1235" Ref="R22"  Part="1" 
+AR Path="/5F40DB5F/60FC1235" Ref="R?"  Part="1" 
+F 0 "R22" V 10575 6750 50  0000 L CNN
+F 1 "1KR" V 10575 7100 50  0000 L CNN
+F 2 "Jlib_Packages:0805_2012Metric_Reflow" V 10565 6990 50  0001 C CNN
+F 3 "~" H 10525 7000 50  0001 C CNN
+	1    10525 7000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 60FC123B
+P 10525 5100
+AR Path="/60FC123B" Ref="R?"  Part="1" 
+AR Path="/60B6EA67/60FC123B" Ref="R?"  Part="1" 
+AR Path="/60EA1CC4/60F99ABD/60FC123B" Ref="R?"  Part="1" 
+AR Path="/60FAF7BA/60FC123B" Ref="R?"  Part="1" 
+AR Path="/610FA5C9/60FC123B" Ref="R?"  Part="1" 
+AR Path="/5F3F34D3/60FC123B" Ref="R19"  Part="1" 
+AR Path="/5F40DB5F/60FC123B" Ref="R?"  Part="1" 
+F 0 "R19" V 10575 4850 50  0000 L CNN
+F 1 "1KR" V 10575 5200 50  0000 L CNN
+F 2 "Jlib_Packages:0805_2012Metric_Reflow" V 10565 5090 50  0001 C CNN
+F 3 "~" H 10525 5100 50  0001 C CNN
+	1    10525 5100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 60FC1241
+P 10525 7600
+AR Path="/60FC1241" Ref="R?"  Part="1" 
+AR Path="/60B6EA67/60FC1241" Ref="R?"  Part="1" 
+AR Path="/60EA1CC4/60F99ABD/60FC1241" Ref="R?"  Part="1" 
+AR Path="/60FAF7BA/60FC1241" Ref="R?"  Part="1" 
+AR Path="/610FA5C9/60FC1241" Ref="R?"  Part="1" 
+AR Path="/5F3F34D3/60FC1241" Ref="R23"  Part="1" 
+AR Path="/5F40DB5F/60FC1241" Ref="R?"  Part="1" 
+F 0 "R23" V 10575 7350 50  0000 L CNN
+F 1 "1KR" V 10575 7700 50  0000 L CNN
+F 2 "Jlib_Packages:0805_2012Metric_Reflow" V 10565 7590 50  0001 C CNN
+F 3 "~" H 10525 7600 50  0001 C CNN
+	1    10525 7600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:Fuse F?
+U 1 1 60FC125F
+P 8725 2650
+AR Path="/60FC125F" Ref="F?"  Part="1" 
+AR Path="/60B6EA67/60FC125F" Ref="F?"  Part="1" 
+AR Path="/60EA1CC4/60F99ABD/60FC125F" Ref="F?"  Part="1" 
+AR Path="/60FAF7BA/60FC125F" Ref="F?"  Part="1" 
+AR Path="/610FA5C9/60FC125F" Ref="F?"  Part="1" 
+AR Path="/5F3F34D3/60FC125F" Ref="F1"  Part="1" 
+AR Path="/5F40DB5F/60FC125F" Ref="F?"  Part="1" 
+F 0 "F1" V 8675 2825 50  0000 C CNN
+F 1 "5A" V 8675 2475 50  0000 C CNN
+F 2 "Jlib_Packages:Fuse_Holder_5x20mm_3527" V 8655 2650 50  0001 C CNN
+F 3 "~" H 8725 2650 50  0001 C CNN
+	1    8725 2650
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:Q_NMOS_GDS Q?
+U 1 1 60FC1265
+P 14900 7600
+AR Path="/60FC1265" Ref="Q?"  Part="1" 
+AR Path="/60B6EA67/60FC1265" Ref="Q?"  Part="1" 
+AR Path="/60EA1CC4/60F99ABD/60FC1265" Ref="Q?"  Part="1" 
+AR Path="/60FAF7BA/60FC1265" Ref="Q?"  Part="1" 
+AR Path="/610FA5C9/60FC1265" Ref="Q?"  Part="1" 
+AR Path="/5F3F34D3/60FC1265" Ref="Q8"  Part="1" 
+AR Path="/5F40DB5F/60FC1265" Ref="Q?"  Part="1" 
+F 0 "Q8" H 15106 7646 50  0000 L CNN
+F 1 "STP80NF55L-06" H 15106 7555 50  0000 L CNN
+F 2 "DC_LOAD_V02:STP80NF55L-06" H 15100 7700 50  0001 C CNN
+F 3 "~" H 14900 7600 50  0001 C CNN
+	1    14900 7600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Q_NMOS_GDS Q?
+U 1 1 60FC126B
+P 13900 6350
+AR Path="/60FC126B" Ref="Q?"  Part="1" 
+AR Path="/60B6EA67/60FC126B" Ref="Q?"  Part="1" 
+AR Path="/60EA1CC4/60F99ABD/60FC126B" Ref="Q?"  Part="1" 
+AR Path="/60FAF7BA/60FC126B" Ref="Q?"  Part="1" 
+AR Path="/610FA5C9/60FC126B" Ref="Q?"  Part="1" 
+AR Path="/5F3F34D3/60FC126B" Ref="Q6"  Part="1" 
+AR Path="/5F40DB5F/60FC126B" Ref="Q?"  Part="1" 
+F 0 "Q6" H 14106 6396 50  0000 L CNN
+F 1 "STP80NF55L-06" H 14106 6305 50  0000 L CNN
+F 2 "DC_LOAD_V02:STP80NF55L-06" H 14100 6450 50  0001 C CNN
+F 3 "~" H 13900 6350 50  0001 C CNN
+	1    13900 6350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Q_NMOS_GDS Q?
+U 1 1 60FC1271
+P 12900 5100
+AR Path="/60FC1271" Ref="Q?"  Part="1" 
+AR Path="/60B6EA67/60FC1271" Ref="Q?"  Part="1" 
+AR Path="/60EA1CC4/60F99ABD/60FC1271" Ref="Q?"  Part="1" 
+AR Path="/60FAF7BA/60FC1271" Ref="Q?"  Part="1" 
+AR Path="/610FA5C9/60FC1271" Ref="Q?"  Part="1" 
+AR Path="/5F3F34D3/60FC1271" Ref="Q4"  Part="1" 
+AR Path="/5F40DB5F/60FC1271" Ref="Q?"  Part="1" 
+F 0 "Q4" H 13106 5146 50  0000 L CNN
+F 1 "STP80NF55L-06" H 13106 5055 50  0000 L CNN
+F 2 "DC_LOAD_V02:STP80NF55L-06" H 13100 5200 50  0001 C CNN
+F 3 "~" H 12900 5100 50  0001 C CNN
+	1    12900 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Q_NMOS_GDS Q?
+U 1 1 60FC1277
+P 11900 3850
+AR Path="/60FC1277" Ref="Q?"  Part="1" 
+AR Path="/60B6EA67/60FC1277" Ref="Q?"  Part="1" 
+AR Path="/60EA1CC4/60F99ABD/60FC1277" Ref="Q?"  Part="1" 
+AR Path="/60FAF7BA/60FC1277" Ref="Q?"  Part="1" 
+AR Path="/610FA5C9/60FC1277" Ref="Q?"  Part="1" 
+AR Path="/5F3F34D3/60FC1277" Ref="Q2"  Part="1" 
+AR Path="/5F40DB5F/60FC1277" Ref="Q?"  Part="1" 
+F 0 "Q2" H 12106 3896 50  0000 L CNN
+F 1 "STP80NF55L-06" H 12106 3805 50  0000 L CNN
+F 2 "DC_LOAD_V02:STP80NF55L-06" H 12100 3950 50  0001 C CNN
+F 3 "~" H 11900 3850 50  0001 C CNN
+	1    11900 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x02 J?
+U 1 1 60FC127D
+P 6575 5875
+AR Path="/60FC127D" Ref="J?"  Part="1" 
+AR Path="/60B6EA67/60FC127D" Ref="J?"  Part="1" 
+AR Path="/60EA1CC4/60F99ABD/60FC127D" Ref="J?"  Part="1" 
+AR Path="/60FAF7BA/60FC127D" Ref="J?"  Part="1" 
+AR Path="/610FA5C9/60FC127D" Ref="J?"  Part="1" 
+AR Path="/5F3F34D3/60FC127D" Ref="J8"  Part="1" 
+AR Path="/5F40DB5F/60FC127D" Ref="J?"  Part="1" 
+F 0 "J8" H 6655 5867 50  0000 L CNN
+F 1 "Screw_Terminal_01x02" H 6655 5776 50  0001 L CNN
+F 2 "Jlib_Packages:Conn_Term_2POS_5mm_PITCH_691137710002" H 6575 5875 50  0001 C CNN
+F 3 "~" H 6575 5875 50  0001 C CNN
+	1    6575 5875
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60FC1283
+P 11700 4875
+AR Path="/60FC1283" Ref="#PWR?"  Part="1" 
+AR Path="/60B6EA67/60FC1283" Ref="#PWR?"  Part="1" 
+AR Path="/60EA1CC4/60F99ABD/60FC1283" Ref="#PWR?"  Part="1" 
+AR Path="/60FAF7BA/60FC1283" Ref="#PWR?"  Part="1" 
+AR Path="/610FA5C9/60FC1283" Ref="#PWR?"  Part="1" 
+AR Path="/5F3F34D3/60FC1283" Ref="#PWR048"  Part="1" 
+AR Path="/5F40DB5F/60FC1283" Ref="#PWR?"  Part="1" 
+F 0 "#PWR048" H 11700 4625 50  0001 C CNN
+F 1 "GND" H 11705 4702 50  0001 C CNN
+F 2 "" H 11700 4875 50  0001 C CNN
+F 3 "" H 11700 4875 50  0001 C CNN
+	1    11700 4875
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60FC128F
+P 13700 7375
+AR Path="/60FC128F" Ref="#PWR?"  Part="1" 
+AR Path="/60B6EA67/60FC128F" Ref="#PWR?"  Part="1" 
+AR Path="/60EA1CC4/60F99ABD/60FC128F" Ref="#PWR?"  Part="1" 
+AR Path="/60FAF7BA/60FC128F" Ref="#PWR?"  Part="1" 
+AR Path="/610FA5C9/60FC128F" Ref="#PWR?"  Part="1" 
+AR Path="/5F3F34D3/60FC128F" Ref="#PWR050"  Part="1" 
+AR Path="/5F40DB5F/60FC128F" Ref="#PWR?"  Part="1" 
+F 0 "#PWR050" H 13700 7125 50  0001 C CNN
+F 1 "GND" H 13705 7202 50  0001 C CNN
+F 2 "" H 13700 7375 50  0001 C CNN
+F 3 "" H 13700 7375 50  0001 C CNN
+	1    13700 7375
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60FC1295
+P 14700 8625
+AR Path="/60FC1295" Ref="#PWR?"  Part="1" 
+AR Path="/60B6EA67/60FC1295" Ref="#PWR?"  Part="1" 
+AR Path="/60EA1CC4/60F99ABD/60FC1295" Ref="#PWR?"  Part="1" 
+AR Path="/60FAF7BA/60FC1295" Ref="#PWR?"  Part="1" 
+AR Path="/610FA5C9/60FC1295" Ref="#PWR?"  Part="1" 
+AR Path="/5F3F34D3/60FC1295" Ref="#PWR051"  Part="1" 
+AR Path="/5F40DB5F/60FC1295" Ref="#PWR?"  Part="1" 
+F 0 "#PWR051" H 14700 8375 50  0001 C CNN
+F 1 "GND" H 14705 8452 50  0001 C CNN
+F 2 "" H 14700 8625 50  0001 C CNN
+F 3 "" H 14700 8625 50  0001 C CNN
+	1    14700 8625
+	1    0    0    -1  
+$EndComp
+$Comp
+L DC_LOAD_V02:CONN_BANANA_FEMALE P?
+U 1 1 60FC129B
+P 2125 5600
+AR Path="/60FC129B" Ref="P?"  Part="1" 
+AR Path="/60B6EA67/60FC129B" Ref="P?"  Part="1" 
+AR Path="/60EA1CC4/60F99ABD/60FC129B" Ref="P?"  Part="1" 
+AR Path="/60FAF7BA/60FC129B" Ref="P?"  Part="1" 
+AR Path="/610FA5C9/60FC129B" Ref="P?"  Part="1" 
+AR Path="/5F3F34D3/60FC129B" Ref="P2"  Part="1" 
+AR Path="/5F40DB5F/60FC129B" Ref="P?"  Part="1" 
+F 0 "P2" H 2075 5450 50  0000 L CNN
+F 1 "CONN_BANANA_FEMALE" H 1825 5775 50  0000 L CNN
+F 2 "" H 2125 5300 50  0001 C CNN
+F 3 "" H 2125 5300 50  0001 C CNN
+	1    2125 5600
+	-1   0    0    1   
+$EndComp
+$Comp
+L DC_LOAD_V02:CONN_BANANA_FEMALE P?
+U 1 1 60FC12A1
+P 2125 6200
+AR Path="/60FC12A1" Ref="P?"  Part="1" 
+AR Path="/60B6EA67/60FC12A1" Ref="P?"  Part="1" 
+AR Path="/60EA1CC4/60F99ABD/60FC12A1" Ref="P?"  Part="1" 
+AR Path="/60FAF7BA/60FC12A1" Ref="P?"  Part="1" 
+AR Path="/610FA5C9/60FC12A1" Ref="P?"  Part="1" 
+AR Path="/5F3F34D3/60FC12A1" Ref="P3"  Part="1" 
+AR Path="/5F40DB5F/60FC12A1" Ref="P?"  Part="1" 
+F 0 "P3" H 2125 6050 50  0000 C CNN
+F 1 "CONN_BANANA_FEMALE" H 2250 6375 50  0000 C CNN
+F 2 "" H 2125 5900 50  0001 C CNN
+F 3 "" H 2125 5900 50  0001 C CNN
+	1    2125 6200
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	12000 2650 13000 2650
+Connection ~ 12000 2650
+Wire Wire Line
+	13000 2650 14000 2650
+Connection ~ 13000 2650
+Wire Wire Line
+	11700 4750 11700 4875
+Wire Wire Line
+	14700 8500 14700 8625
+Wire Wire Line
+	15000 9025 15000 8725
+Wire Wire Line
+	14000 7475 14000 9025
+Connection ~ 14000 9025
+Connection ~ 13000 9025
+Wire Wire Line
+	13000 9025 14000 9025
+Wire Wire Line
+	12000 4975 12000 9025
+Connection ~ 12000 9025
+$Comp
+L power:GND #PWR?
+U 1 1 60FC12D8
+P 15000 9175
+AR Path="/60FC12D8" Ref="#PWR?"  Part="1" 
+AR Path="/60B6EA67/60FC12D8" Ref="#PWR?"  Part="1" 
+AR Path="/60EA1CC4/60F99ABD/60FC12D8" Ref="#PWR?"  Part="1" 
+AR Path="/60FAF7BA/60FC12D8" Ref="#PWR?"  Part="1" 
+AR Path="/610FA5C9/60FC12D8" Ref="#PWR?"  Part="1" 
+AR Path="/5F3F34D3/60FC12D8" Ref="#PWR052"  Part="1" 
+AR Path="/5F40DB5F/60FC12D8" Ref="#PWR?"  Part="1" 
+F 0 "#PWR052" H 15000 8925 50  0001 C CNN
+F 1 "GND" H 15005 9002 50  0001 C CNN
+F 2 "" H 15000 9175 50  0001 C CNN
+F 3 "" H 15000 9175 50  0001 C CNN
+	1    15000 9175
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13700 7375 13700 7250
+Wire Wire Line
+	15000 9025 15000 9175
+$Comp
+L Device:R_US R?
+U 1 1 60FC12E0
+P 15000 8575
+AR Path="/60FC12E0" Ref="R?"  Part="1" 
+AR Path="/60B6EA67/60FC12E0" Ref="R?"  Part="1" 
+AR Path="/60EA1CC4/60F99ABD/60FC12E0" Ref="R?"  Part="1" 
+AR Path="/60FAF7BA/60FC12E0" Ref="R?"  Part="1" 
+AR Path="/610FA5C9/60FC12E0" Ref="R?"  Part="1" 
+AR Path="/5F3F34D3/60FC12E0" Ref="R32"  Part="1" 
+AR Path="/5F40DB5F/60FC12E0" Ref="R?"  Part="1" 
+F 0 "R32" H 15068 8621 50  0000 L CNN
+F 1 "0R1" H 15068 8530 50  0000 L CNN
+F 2 "Jlib_Packages:R_Radial_0R1_Riedon_MSR3" V 15040 8565 50  0001 C CNN
+F 3 "~" H 15000 8575 50  0001 C CNN
+	1    15000 8575
+	1    0    0    -1  
+$EndComp
+Text Label 11000 7600 0    50   ~ 0
+GATE4
+Text Label 11000 6350 0    50   ~ 0
+GATE3
+Text Label 10975 5100 0    50   ~ 0
+GATE2
+Text Label 10975 3850 0    50   ~ 0
+GATE1
+Text Label 9575 7600 0    50   ~ 0
+358_OUT4
+$Comp
+L power:GND #PWR?
+U 1 1 60FC12EB
+P 9100 4100
+AR Path="/60FC12EB" Ref="#PWR?"  Part="1" 
+AR Path="/60B6EA67/60FC12EB" Ref="#PWR?"  Part="1" 
+AR Path="/60EA1CC4/60F99ABD/60FC12EB" Ref="#PWR?"  Part="1" 
+AR Path="/60FAF7BA/60FC12EB" Ref="#PWR?"  Part="1" 
+AR Path="/610FA5C9/60FC12EB" Ref="#PWR?"  Part="1" 
+AR Path="/5F3F34D3/60FC12EB" Ref="#PWR040"  Part="1" 
+AR Path="/5F40DB5F/60FC12EB" Ref="#PWR?"  Part="1" 
+F 0 "#PWR040" H 9100 3850 50  0001 C CNN
+F 1 "GND" H 9105 3927 50  0001 C CNN
+F 2 "" H 9100 4100 50  0001 C CNN
+F 3 "" H 9100 4100 50  0001 C CNN
+	1    9100 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60FC12F1
+P 9100 5350
+AR Path="/60FC12F1" Ref="#PWR?"  Part="1" 
+AR Path="/60B6EA67/60FC12F1" Ref="#PWR?"  Part="1" 
+AR Path="/60EA1CC4/60F99ABD/60FC12F1" Ref="#PWR?"  Part="1" 
+AR Path="/60FAF7BA/60FC12F1" Ref="#PWR?"  Part="1" 
+AR Path="/610FA5C9/60FC12F1" Ref="#PWR?"  Part="1" 
+AR Path="/5F3F34D3/60FC12F1" Ref="#PWR041"  Part="1" 
+AR Path="/5F40DB5F/60FC12F1" Ref="#PWR?"  Part="1" 
+F 0 "#PWR041" H 9100 5100 50  0001 C CNN
+F 1 "GND" H 9105 5177 50  0001 C CNN
+F 2 "" H 9100 5350 50  0001 C CNN
+F 3 "" H 9100 5350 50  0001 C CNN
+	1    9100 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60FC12F7
+P 9100 6600
+AR Path="/60FC12F7" Ref="#PWR?"  Part="1" 
+AR Path="/60B6EA67/60FC12F7" Ref="#PWR?"  Part="1" 
+AR Path="/60EA1CC4/60F99ABD/60FC12F7" Ref="#PWR?"  Part="1" 
+AR Path="/60FAF7BA/60FC12F7" Ref="#PWR?"  Part="1" 
+AR Path="/610FA5C9/60FC12F7" Ref="#PWR?"  Part="1" 
+AR Path="/5F3F34D3/60FC12F7" Ref="#PWR042"  Part="1" 
+AR Path="/5F40DB5F/60FC12F7" Ref="#PWR?"  Part="1" 
+F 0 "#PWR042" H 9100 6350 50  0001 C CNN
+F 1 "GND" H 9105 6427 50  0001 C CNN
+F 2 "" H 9100 6600 50  0001 C CNN
+F 3 "" H 9100 6600 50  0001 C CNN
+	1    9100 6600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60FC12FD
+P 9100 7850
+AR Path="/60FC12FD" Ref="#PWR?"  Part="1" 
+AR Path="/60B6EA67/60FC12FD" Ref="#PWR?"  Part="1" 
+AR Path="/60EA1CC4/60F99ABD/60FC12FD" Ref="#PWR?"  Part="1" 
+AR Path="/60FAF7BA/60FC12FD" Ref="#PWR?"  Part="1" 
+AR Path="/610FA5C9/60FC12FD" Ref="#PWR?"  Part="1" 
+AR Path="/5F3F34D3/60FC12FD" Ref="#PWR043"  Part="1" 
+AR Path="/5F40DB5F/60FC12FD" Ref="#PWR?"  Part="1" 
+F 0 "#PWR043" H 9100 7600 50  0001 C CNN
+F 1 "GND" H 9105 7677 50  0001 C CNN
+F 2 "" H 9100 7850 50  0001 C CNN
+F 3 "" H 9100 7850 50  0001 C CNN
+	1    9100 7850
+	1    0    0    -1  
+$EndComp
+Text Label 9575 6350 0    50   ~ 0
+358_OUT3
+Text Label 9575 5100 0    50   ~ 0
+358_OUT2
+Text Label 9575 3850 0    50   ~ 0
+358_OUT1
+Text Label 10975 4500 0    50   ~ 0
+BASE1
+Wire Wire Line
+	11700 3850 11700 4250
+Wire Wire Line
+	8750 5200 8750 5475
+Wire Wire Line
+	8750 3950 8750 4225
+Wire Wire Line
+	8750 7700 8750 7975
+Wire Wire Line
+	8750 6450 8750 6725
+Text Label 10975 5750 0    50   ~ 0
+BASE2
+Text Label 11000 7000 0    50   ~ 0
+BASE3
+Text Label 11000 8250 0    50   ~ 0
+BASE4
+Wire Wire Line
+	10675 8250 14450 8250
+Wire Wire Line
+	10675 7000 13450 7000
+Connection ~ 13700 6350
+Wire Wire Line
+	10675 6350 11600 6350
+Connection ~ 11700 3850
+Wire Wire Line
+	10675 4500 11450 4500
+Connection ~ 15000 9025
+Wire Wire Line
+	13000 6225 13000 9025
+$Comp
+L Device:R_US R?
+U 1 1 60FC1333
+P 13000 6075
+AR Path="/60FC1333" Ref="R?"  Part="1" 
+AR Path="/60B6EA67/60FC1333" Ref="R?"  Part="1" 
+AR Path="/60EA1CC4/60F99ABD/60FC1333" Ref="R?"  Part="1" 
+AR Path="/60FAF7BA/60FC1333" Ref="R?"  Part="1" 
+AR Path="/610FA5C9/60FC1333" Ref="R?"  Part="1" 
+AR Path="/5F3F34D3/60FC1333" Ref="R30"  Part="1" 
+AR Path="/5F40DB5F/60FC1333" Ref="R?"  Part="1" 
+F 0 "R30" H 13068 6121 50  0000 L CNN
+F 1 "0R1" H 13068 6030 50  0000 L CNN
+F 2 "Jlib_Packages:R_Radial_0R1_Riedon_MSR3" V 13040 6065 50  0001 C CNN
+F 3 "~" H 13000 6075 50  0001 C CNN
+	1    13000 6075
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12075 4350 12000 4350
+Connection ~ 12000 4350
+Wire Wire Line
+	12000 4350 12000 4675
+Wire Wire Line
+	13075 5600 13000 5600
+Connection ~ 13000 5600
+Wire Wire Line
+	13000 5600 13000 5925
+Wire Wire Line
+	14075 6850 14000 6850
+Connection ~ 14000 6850
+Wire Wire Line
+	14000 6850 14000 7175
+Wire Wire Line
+	15075 8100 15000 8100
+Connection ~ 15000 8100
+Wire Wire Line
+	15000 8100 15000 8425
+Wire Notes Line width 12 rgb(255, 0, 0)
+	1525 6450 2975 6450
+Wire Notes Line width 12 rgb(255, 0, 0)
+	2975 3450 1525 3450
+Wire Notes Line width 12 rgb(255, 0, 0)
+	1525 3450 1525 6450
+Wire Notes Line width 12 rgb(255, 0, 0)
+	2975 6450 2975 3450
+Wire Wire Line
+	2325 6200 2425 6200
+Wire Wire Line
+	2325 5600 2550 5600
+$Comp
+L DC_LOAD_V02:LM6132 U?
+U 1 1 60FC1350
+P 5125 4275
+AR Path="/60FC1350" Ref="U?"  Part="1" 
+AR Path="/60B6EA67/60FC1350" Ref="U?"  Part="1" 
+AR Path="/60EA1CC4/60F99ABD/60FC1350" Ref="U?"  Part="1" 
+AR Path="/60FAF7BA/60FC1350" Ref="U?"  Part="1" 
+AR Path="/610FA5C9/60FC1350" Ref="U?"  Part="1" 
+AR Path="/5F3F34D3/60FC1350" Ref="U6"  Part="1" 
+AR Path="/5F40DB5F/60FC1350" Ref="U?"  Part="1" 
+F 0 "U6" H 5350 4400 50  0000 L CNN
+F 1 "LM6132" H 5350 4150 50  0000 L CNN
+F 2 "Jlib_Packages:SOIC-8_3.9x4.9mm_P1.27mm" H 5125 4575 50  0001 C CNN
+F 3 "" H 5125 4575 50  0001 C CNN
+	1    5125 4275
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 60FC1356
+P 4050 3575
+AR Path="/60FC1356" Ref="R?"  Part="1" 
+AR Path="/60B6EA67/60FC1356" Ref="R?"  Part="1" 
+AR Path="/60EA1CC4/60F99ABD/60FC1356" Ref="R?"  Part="1" 
+AR Path="/60FAF7BA/60FC1356" Ref="R?"  Part="1" 
+AR Path="/610FA5C9/60FC1356" Ref="R?"  Part="1" 
+AR Path="/5F3F34D3/60FC1356" Ref="R13"  Part="1" 
+AR Path="/5F40DB5F/60FC1356" Ref="R?"  Part="1" 
+F 0 "R13" V 4100 3325 50  0000 L CNN
+F 1 "100KR" V 4100 3675 50  0000 L CNN
+F 2 "Jlib_Packages:0805_2012Metric_Reflow" V 4090 3565 50  0001 C CNN
+F 3 "~" H 4050 3575 50  0001 C CNN
+	1    4050 3575
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 60FC135C
+P 4450 4725
+AR Path="/60FC135C" Ref="R?"  Part="1" 
+AR Path="/60B6EA67/60FC135C" Ref="R?"  Part="1" 
+AR Path="/60EA1CC4/60F99ABD/60FC135C" Ref="R?"  Part="1" 
+AR Path="/60FAF7BA/60FC135C" Ref="R?"  Part="1" 
+AR Path="/610FA5C9/60FC135C" Ref="R?"  Part="1" 
+AR Path="/5F3F34D3/60FC135C" Ref="R15"  Part="1" 
+AR Path="/5F40DB5F/60FC135C" Ref="R?"  Part="1" 
+F 0 "R15" H 4518 4771 50  0000 L CNN
+F 1 "10KR" H 4518 4680 50  0000 L CNN
+F 2 "Jlib_Packages:0805_2012Metric_Reflow" V 4490 4715 50  0001 C CNN
+F 3 "~" H 4450 4725 50  0001 C CNN
+	1    4450 4725
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 60FC1362
+P 5325 3575
+AR Path="/60FC1362" Ref="R?"  Part="1" 
+AR Path="/60B6EA67/60FC1362" Ref="R?"  Part="1" 
+AR Path="/60EA1CC4/60F99ABD/60FC1362" Ref="R?"  Part="1" 
+AR Path="/60FAF7BA/60FC1362" Ref="R?"  Part="1" 
+AR Path="/610FA5C9/60FC1362" Ref="R?"  Part="1" 
+AR Path="/5F3F34D3/60FC1362" Ref="R16"  Part="1" 
+AR Path="/5F40DB5F/60FC1362" Ref="R?"  Part="1" 
+F 0 "R16" V 5375 3325 50  0000 L CNN
+F 1 "10KR" V 5375 3675 50  0000 L CNN
+F 2 "Jlib_Packages:0805_2012Metric_Reflow" V 5365 3565 50  0001 C CNN
+F 3 "~" H 5325 3575 50  0001 C CNN
+	1    5325 3575
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 60FC1368
+P 4050 4375
+AR Path="/60FC1368" Ref="R?"  Part="1" 
+AR Path="/60B6EA67/60FC1368" Ref="R?"  Part="1" 
+AR Path="/60EA1CC4/60F99ABD/60FC1368" Ref="R?"  Part="1" 
+AR Path="/60FAF7BA/60FC1368" Ref="R?"  Part="1" 
+AR Path="/610FA5C9/60FC1368" Ref="R?"  Part="1" 
+AR Path="/5F3F34D3/60FC1368" Ref="R14"  Part="1" 
+AR Path="/5F40DB5F/60FC1368" Ref="R?"  Part="1" 
+F 0 "R14" V 4100 4125 50  0000 L CNN
+F 1 "100KR" V 4100 4475 50  0000 L CNN
+F 2 "Jlib_Packages:0805_2012Metric_Reflow" V 4090 4365 50  0001 C CNN
+F 3 "~" H 4050 4375 50  0001 C CNN
+	1    4050 4375
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2425 6200 2425 4000
+Wire Wire Line
+	4450 4575 4450 4375
+Wire Wire Line
+	5875 3575 5875 4275
+Wire Wire Line
+	5875 4275 5675 4275
+Wire Wire Line
+	5475 3575 5875 3575
+$Comp
+L power:GND #PWR?
+U 1 1 60FC1379
+P 5325 5075
+AR Path="/60FC1379" Ref="#PWR?"  Part="1" 
+AR Path="/60B6EA67/60FC1379" Ref="#PWR?"  Part="1" 
+AR Path="/60EA1CC4/60F99ABD/60FC1379" Ref="#PWR?"  Part="1" 
+AR Path="/60FAF7BA/60FC1379" Ref="#PWR?"  Part="1" 
+AR Path="/610FA5C9/60FC1379" Ref="#PWR?"  Part="1" 
+AR Path="/5F3F34D3/60FC1379" Ref="#PWR034"  Part="1" 
+AR Path="/5F40DB5F/60FC1379" Ref="#PWR?"  Part="1" 
+F 0 "#PWR034" H 5325 4825 50  0001 C CNN
+F 1 "GND" H 5330 4902 50  0001 C CNN
+F 2 "" H 5325 5075 50  0001 C CNN
+F 3 "" H 5325 5075 50  0001 C CNN
+	1    5325 5075
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4450 4875 4450 5000
+Wire Wire Line
+	5325 5000 5325 5075
+Wire Wire Line
+	5325 4525 5325 5000
+Connection ~ 5325 5000
+Wire Wire Line
+	4975 4175 4450 4175
+Wire Wire Line
+	4450 4175 4450 3575
+Connection ~ 4450 3575
+Wire Wire Line
+	4450 3575 5175 3575
+Text GLabel 6075 4275 2    50   Output ~ 0
+ADC_VLOAD0
+Wire Wire Line
+	5875 4275 6075 4275
+Connection ~ 5875 4275
+Text GLabel 8750 3750 0    50   Input ~ 0
+LM358+
+Text GLabel 8750 5000 0    50   Input ~ 0
+LM358+
+Text GLabel 8750 6250 0    50   Input ~ 0
+LM358+
+Text GLabel 8750 7500 0    50   Input ~ 0
+LM358+
+Wire Wire Line
+	6775 5975 6775 6200
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 60FC1390
+P 2775 4000
+AR Path="/60FC1390" Ref="J?"  Part="1" 
+AR Path="/60B6EA67/60FC1390" Ref="J?"  Part="1" 
+AR Path="/60EA1CC4/60F99ABD/60FC1390" Ref="J?"  Part="1" 
+AR Path="/60FAF7BA/60FC1390" Ref="J?"  Part="1" 
+AR Path="/610FA5C9/60FC1390" Ref="J?"  Part="1" 
+AR Path="/5F3F34D3/60FC1390" Ref="J6"  Part="1" 
+AR Path="/5F40DB5F/60FC1390" Ref="J?"  Part="1" 
+F 0 "J6" H 2855 3992 50  0000 L CNN
+F 1 "Conn_01x02" H 2855 3901 50  0001 L CNN
+F 2 "" H 2775 4000 50  0001 C CNN
+F 3 "~" H 2775 4000 50  0001 C CNN
+	1    2775 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2550 4100 2575 4100
+Wire Wire Line
+	2550 4100 2550 5600
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 60FC1398
+P 3275 4000
+AR Path="/60FC1398" Ref="J?"  Part="1" 
+AR Path="/60B6EA67/60FC1398" Ref="J?"  Part="1" 
+AR Path="/60EA1CC4/60F99ABD/60FC1398" Ref="J?"  Part="1" 
+AR Path="/60FAF7BA/60FC1398" Ref="J?"  Part="1" 
+AR Path="/610FA5C9/60FC1398" Ref="J?"  Part="1" 
+AR Path="/5F3F34D3/60FC1398" Ref="J7"  Part="1" 
+AR Path="/5F40DB5F/60FC1398" Ref="J?"  Part="1" 
+F 0 "J7" H 3355 3992 50  0000 L CNN
+F 1 "Conn_01x02" H 3355 3901 50  0001 L CNN
+F 2 "Jlib_Packages:Conn_Molex_1x2_Horizontal_1.5mm_Pitch_0874380243" H 3275 4000 50  0001 C CNN
+F 3 "~" H 3275 4000 50  0001 C CNN
+	1    3275 4000
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	3475 4000 3625 4000
+Wire Wire Line
+	3625 3575 3900 3575
+Wire Wire Line
+	3475 4100 3625 4100
+Wire Wire Line
+	3625 4100 3625 4375
+Wire Wire Line
+	3625 4375 3900 4375
+Wire Wire Line
+	13000 5300 13000 5475
+Wire Wire Line
+	14000 6550 14000 6725
+Wire Wire Line
+	15000 7800 15000 7975
+Wire Wire Line
+	2550 5600 6775 5600
+Connection ~ 6775 5600
+Wire Wire Line
+	6775 5600 6775 5875
+Wire Wire Line
+	2425 6200 6775 6200
+Connection ~ 6775 6200
+Wire Wire Line
+	6775 6200 6775 9025
+Text Label 4550 4175 0    50   ~ 0
+LM6132-
+Wire Wire Line
+	4200 3575 4450 3575
+Wire Wire Line
+	4200 4375 4450 4375
+Connection ~ 4450 4375
+Wire Wire Line
+	4450 4375 4975 4375
+Wire Wire Line
+	4450 5000 5325 5000
+Text Label 4550 4375 0    50   ~ 0
+LM6132+
+Wire Wire Line
+	2425 4000 2575 4000
+Wire Wire Line
+	12000 9025 13000 9025
+Connection ~ 2425 6200
+Connection ~ 2550 5600
+Wire Wire Line
+	12000 4050 12000 4225
+Wire Wire Line
+	9450 3850 10375 3850
+Connection ~ 12000 4225
+Wire Wire Line
+	12000 4225 12000 4350
+Wire Wire Line
+	9450 5100 10375 5100
+Wire Wire Line
+	9450 6350 10375 6350
+Wire Wire Line
+	9450 7600 10375 7600
+Text Label 6775 2650 0    50   ~ 0
++LOAD
+Text Label 9400 2650 0    50   ~ 0
++LOAD_FUSED
+Text GLabel 9000 4500 0    50   Input ~ 0
+328P_PD4
+Text GLabel 9000 5750 0    50   Input ~ 0
+328P_PD4
+Text GLabel 9000 7000 0    50   Input ~ 0
+328P_PD4
+Wire Wire Line
+	9000 7000 10375 7000
+Wire Wire Line
+	9000 4500 10375 4500
+Wire Wire Line
+	9000 5750 10375 5750
+Text GLabel 9000 8250 0    50   Input ~ 0
+328P_PD4
+Wire Wire Line
+	9000 8250 10375 8250
+Wire Wire Line
+	8750 4225 12000 4225
+Wire Wire Line
+	10675 7600 11600 7600
+Connection ~ 14700 7600
+Wire Wire Line
+	14700 7600 14700 8000
+Wire Wire Line
+	8750 7975 15000 7975
+Connection ~ 15000 7975
+Wire Wire Line
+	15000 7975 15000 8100
+Wire Wire Line
+	13700 6350 13700 6750
+Wire Wire Line
+	8750 6725 14000 6725
+Connection ~ 14000 6725
+Wire Wire Line
+	14000 6725 14000 6850
+Wire Wire Line
+	8750 5475 13000 5475
+Connection ~ 13000 5475
+Wire Wire Line
+	13000 5475 13000 5600
+Wire Wire Line
+	15000 2650 14000 2650
+Connection ~ 14000 2650
+Text Notes 10150 2450 0    157  ~ 31
+Current Control\n
+Text Notes 3800 3175 0    157  ~ 31
+Voltage Sensing
+$Comp
+L Device:C C20
+U 1 1 5F429776
+P 7800 3950
+AR Path="/5F3F34D3/5F429776" Ref="C20"  Part="1" 
+AR Path="/5F40DB5F/5F429776" Ref="C?"  Part="1" 
+F 0 "C20" V 7850 3750 50  0000 L CNN
+F 1 "10u, 25V" V 7850 4025 50  0000 L CNN
+F 2 "Jlib_Packages:0805_2012Metric_Reflow" H 7838 3800 50  0001 C CNN
+F 3 "~" H 7800 3950 50  0001 C CNN
+	1    7800 3950
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7650 3950 7325 3950
+Wire Wire Line
+	7325 3950 7325 3625
+Wire Wire Line
+	6775 2650 7725 2650
+Wire Wire Line
+	6775 9025 12000 9025
+Text Notes 2875 7475 0    157  ~ 31
+Op-Amp Filters
+$Comp
+L Device:Ferrite_Bead FB4
+U 1 1 5F3DF3A0
+P 3775 8025
+AR Path="/5F3F34D3/5F3DF3A0" Ref="FB4"  Part="1" 
+AR Path="/5F40DB5F/5F3DF3A0" Ref="FB?"  Part="1" 
+F 0 "FB4" V 3825 7775 50  0000 L CNN
+F 1 "MI0805L301R-10" V 3725 7300 50  0000 L CNN
+F 2 "Jlib_Packages:0805_2012Metric_Reflow" V 3705 8025 50  0001 C CNN
+F 3 "~" H 3775 8025 50  0001 C CNN
+	1    3775 8025
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F3DFD3B
+P 4675 8450
+AR Path="/5F3DFD3B" Ref="#PWR?"  Part="1" 
+AR Path="/60B6EA67/5F3DFD3B" Ref="#PWR?"  Part="1" 
+AR Path="/60EA1CC4/60F99ABD/5F3DFD3B" Ref="#PWR?"  Part="1" 
+AR Path="/60FAF7BA/5F3DFD3B" Ref="#PWR?"  Part="1" 
+AR Path="/610FA5C9/5F3DFD3B" Ref="#PWR?"  Part="1" 
+AR Path="/5F3F34D3/5F3DFD3B" Ref="#PWR031"  Part="1" 
+AR Path="/5F40DB5F/5F3DFD3B" Ref="#PWR?"  Part="1" 
+F 0 "#PWR031" H 4675 8200 50  0001 C CNN
+F 1 "GND" H 4680 8277 50  0001 C CNN
+F 2 "" H 4675 8450 50  0001 C CNN
+F 3 "" H 4675 8450 50  0001 C CNN
+	1    4675 8450
+	1    0    0    -1  
+$EndComp
+Connection ~ 12700 5100
+Wire Wire Line
+	10675 5100 11600 5100
+Wire Wire Line
+	10675 5750 12450 5750
+Wire Wire Line
+	12700 5100 12700 5500
+Wire Wire Line
+	12700 6000 12700 6150
+$Comp
+L power:GND #PWR?
+U 1 1 60FC1289
+P 12700 6150
+AR Path="/60FC1289" Ref="#PWR?"  Part="1" 
+AR Path="/60B6EA67/60FC1289" Ref="#PWR?"  Part="1" 
+AR Path="/60EA1CC4/60F99ABD/60FC1289" Ref="#PWR?"  Part="1" 
+AR Path="/60FAF7BA/60FC1289" Ref="#PWR?"  Part="1" 
+AR Path="/610FA5C9/60FC1289" Ref="#PWR?"  Part="1" 
+AR Path="/5F3F34D3/60FC1289" Ref="#PWR049"  Part="1" 
+AR Path="/5F40DB5F/60FC1289" Ref="#PWR?"  Part="1" 
+F 0 "#PWR049" H 12700 5900 50  0001 C CNN
+F 1 "GND" H 12705 5977 50  0001 C CNN
+F 2 "" H 12700 6150 50  0001 C CNN
+F 3 "" H 12700 6150 50  0001 C CNN
+	1    12700 6150
+	1    0    0    -1  
+$EndComp
+$Comp
+L DC_LOAD_V02:MMBT3904LT3G Q?
+U 1 1 60FC11F3
+P 12600 5750
+AR Path="/60FC11F3" Ref="Q?"  Part="1" 
+AR Path="/60B6EA67/60FC11F3" Ref="Q?"  Part="1" 
+AR Path="/60EA1CC4/60F99ABD/60FC11F3" Ref="Q?"  Part="1" 
+AR Path="/60FAF7BA/60FC11F3" Ref="Q?"  Part="1" 
+AR Path="/610FA5C9/60FC11F3" Ref="Q?"  Part="1" 
+AR Path="/5F3F34D3/60FC11F3" Ref="Q3"  Part="1" 
+AR Path="/5F40DB5F/60FC11F3" Ref="Q?"  Part="1" 
+F 0 "Q3" H 12425 5625 50  0000 L CNN
+F 1 "MMBT3904LT3G" H 12050 5550 50  0000 L CNN
+F 2 "Jlib_Packages:SOT-23" H 12575 5375 50  0001 C CNN
+F 3 "" H 12575 5375 50  0001 C CNN
+	1    12600 5750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1925 8025 1925 7775
+$Comp
+L power:+12V #PWR?
+U 1 1 5F40727E
+P 1925 7775
+AR Path="/5F40727E" Ref="#PWR?"  Part="1" 
+AR Path="/60B6EA67/5F40727E" Ref="#PWR?"  Part="1" 
+AR Path="/60EA1CC4/60F99ABD/5F40727E" Ref="#PWR?"  Part="1" 
+AR Path="/60FAF7BA/5F40727E" Ref="#PWR?"  Part="1" 
+AR Path="/610FA5C9/5F40727E" Ref="#PWR?"  Part="1" 
+AR Path="/5F3F34D3/5F40727E" Ref="#PWR030"  Part="1" 
+AR Path="/5F40DB5F/5F40727E" Ref="#PWR?"  Part="1" 
+F 0 "#PWR030" H 1925 7625 50  0001 C CNN
+F 1 "+12V" H 1940 7948 50  0000 C CNN
+F 2 "" H 1925 7775 50  0001 C CNN
+F 3 "" H 1925 7775 50  0001 C CNN
+	1    1925 7775
+	1    0    0    -1  
+$EndComp
+Text Label 5250 8025 2    50   ~ 0
++LM6132_VCC
+Wire Wire Line
+	4675 8325 4675 8450
+$Comp
+L Device:C C17
+U 1 1 5F591C09
+P 4675 8175
+AR Path="/5F3F34D3/5F591C09" Ref="C17"  Part="1" 
+AR Path="/5F40DB5F/5F591C09" Ref="C?"  Part="1" 
+F 0 "C17" H 4800 8225 50  0000 L CNN
+F 1 "10n, 50V" H 4800 8125 50  0000 L CNN
+F 2 "Jlib_Packages:0805_2012Metric_Reflow" H 4713 8025 50  0001 C CNN
+F 3 "~" H 4675 8175 50  0001 C CNN
+	1    4675 8175
+	1    0    0    -1  
+$EndComp
+Text Label 5250 10025 2    50   ~ 0
++LM358_VCC2
+$Comp
+L power:GND #PWR?
+U 1 1 5F47C65B
+P 4675 10450
+AR Path="/5F47C65B" Ref="#PWR?"  Part="1" 
+AR Path="/60B6EA67/5F47C65B" Ref="#PWR?"  Part="1" 
+AR Path="/60EA1CC4/60F99ABD/5F47C65B" Ref="#PWR?"  Part="1" 
+AR Path="/60FAF7BA/5F47C65B" Ref="#PWR?"  Part="1" 
+AR Path="/610FA5C9/5F47C65B" Ref="#PWR?"  Part="1" 
+AR Path="/5F3F34D3/5F47C65B" Ref="#PWR033"  Part="1" 
+AR Path="/5F40DB5F/5F47C65B" Ref="#PWR?"  Part="1" 
+F 0 "#PWR033" H 4675 10200 50  0001 C CNN
+F 1 "GND" H 4680 10277 50  0001 C CNN
+F 2 "" H 4675 10450 50  0001 C CNN
+F 3 "" H 4675 10450 50  0001 C CNN
+	1    4675 10450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4675 10325 4675 10450
+$Comp
+L Device:Ferrite_Bead FB6
+U 1 1 5F3FFAE5
+P 3775 10025
+AR Path="/5F3F34D3/5F3FFAE5" Ref="FB6"  Part="1" 
+AR Path="/5F40DB5F/5F3FFAE5" Ref="FB?"  Part="1" 
+F 0 "FB6" V 3825 9775 50  0000 L CNN
+F 1 "MI0805L301R-10" V 3725 9300 50  0000 L CNN
+F 2 "Jlib_Packages:0805_2012Metric_Reflow" V 3705 10025 50  0001 C CNN
+F 3 "~" H 3775 10025 50  0001 C CNN
+	1    3775 10025
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C C19
+U 1 1 5F592642
+P 4675 10175
+AR Path="/5F3F34D3/5F592642" Ref="C19"  Part="1" 
+AR Path="/5F40DB5F/5F592642" Ref="C?"  Part="1" 
+F 0 "C19" H 4800 10225 50  0000 L CNN
+F 1 "100n, 50V" H 4800 10125 50  0000 L CNN
+F 2 "Jlib_Packages:0805_2012Metric_Reflow" H 4713 10025 50  0001 C CNN
+F 3 "~" H 4675 10175 50  0001 C CNN
+	1    4675 10175
+	1    0    0    -1  
+$EndComp
+Text Label 5250 9025 2    50   ~ 0
++LM358_VCC1
+Wire Wire Line
+	4675 9025 5250 9025
+$Comp
+L power:GND #PWR?
+U 1 1 5F47C811
+P 4675 9450
+AR Path="/5F47C811" Ref="#PWR?"  Part="1" 
+AR Path="/60B6EA67/5F47C811" Ref="#PWR?"  Part="1" 
+AR Path="/60EA1CC4/60F99ABD/5F47C811" Ref="#PWR?"  Part="1" 
+AR Path="/60FAF7BA/5F47C811" Ref="#PWR?"  Part="1" 
+AR Path="/610FA5C9/5F47C811" Ref="#PWR?"  Part="1" 
+AR Path="/5F3F34D3/5F47C811" Ref="#PWR032"  Part="1" 
+AR Path="/5F40DB5F/5F47C811" Ref="#PWR?"  Part="1" 
+F 0 "#PWR032" H 4675 9200 50  0001 C CNN
+F 1 "GND" H 4680 9277 50  0001 C CNN
+F 2 "" H 4675 9450 50  0001 C CNN
+F 3 "" H 4675 9450 50  0001 C CNN
+	1    4675 9450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4675 9325 4675 9450
+Wire Wire Line
+	4675 9025 3925 9025
+Connection ~ 4675 9025
+$Comp
+L Device:Ferrite_Bead FB5
+U 1 1 5F4037D0
+P 3775 9025
+AR Path="/5F3F34D3/5F4037D0" Ref="FB5"  Part="1" 
+AR Path="/5F40DB5F/5F4037D0" Ref="FB?"  Part="1" 
+F 0 "FB5" V 3825 8775 50  0000 L CNN
+F 1 "MI0805L301R-10" V 3725 8300 50  0000 L CNN
+F 2 "Jlib_Packages:0805_2012Metric_Reflow" V 3705 9025 50  0001 C CNN
+F 3 "~" H 3775 9025 50  0001 C CNN
+	1    3775 9025
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C C18
+U 1 1 5F592A0F
+P 4675 9175
+AR Path="/5F3F34D3/5F592A0F" Ref="C18"  Part="1" 
+AR Path="/5F40DB5F/5F592A0F" Ref="C?"  Part="1" 
+F 0 "C18" H 4800 9225 50  0000 L CNN
+F 1 "100n, 50V" H 4800 9125 50  0000 L CNN
+F 2 "Jlib_Packages:0805_2012Metric_Reflow" H 4713 9025 50  0001 C CNN
+F 3 "~" H 4675 9175 50  0001 C CNN
+	1    4675 9175
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9100 3600 9100 3450
+Wire Wire Line
+	9100 3450 8400 3450
+Text Label 8400 3450 0    50   ~ 0
++LM358_VCC1
+Wire Wire Line
+	9100 4850 9100 4700
+Wire Wire Line
+	9100 4700 8400 4700
+Text Label 8400 4700 0    50   ~ 0
++LM358_VCC1
+Wire Wire Line
+	9100 6100 9100 5950
+Wire Wire Line
+	9100 5950 8400 5950
+Text Label 8400 5950 0    50   ~ 0
++LM358_VCC2
+Wire Wire Line
+	9100 7350 9100 7200
+Wire Wire Line
+	9100 7200 8400 7200
+Text Label 8400 7200 0    50   ~ 0
++LM358_VCC2
+Wire Wire Line
+	3925 10025 4675 10025
+Connection ~ 4675 10025
+Wire Wire Line
+	4675 10025 5250 10025
+Connection ~ 4675 8025
+Wire Wire Line
+	4675 8025 5250 8025
+Wire Wire Line
+	3925 8025 4675 8025
+$Comp
+L DC_LOAD_V02:FSV8100V D4
+U 1 1 5F42F32E
+P 12000 3025
+F 0 "D4" V 12054 3163 50  0000 L CNN
+F 1 "FSV8100V" V 12145 3163 50  0000 L CNN
+F 2 "DC_LOAD_V02:FSV8100V" H 12000 2825 50  0001 C CNN
+F 3 "" H 12000 2825 50  0001 C CNN
+	1    12000 3025
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6775 2650 6775 5600
+Wire Wire Line
+	11950 2875 11950 2825
+Wire Wire Line
+	11950 2825 12000 2825
+Wire Wire Line
+	12000 2650 12000 2825
+Wire Wire Line
+	12050 2875 12050 2825
+Wire Wire Line
+	12050 2825 12000 2825
+Connection ~ 12000 2825
+Wire Wire Line
+	12000 3375 12000 3650
+Wire Wire Line
+	13000 4000 12950 4000
+Wire Wire Line
+	12950 4000 12950 4075
+Wire Wire Line
+	13000 4000 13050 4000
+Wire Wire Line
+	13050 4000 13050 4075
+Connection ~ 13000 4000
+Wire Wire Line
+	13000 4575 13000 4900
+Wire Wire Line
+	13000 2650 13000 4000
+$Comp
+L DC_LOAD_V02:FSV8100V D5
+U 1 1 5F467B6C
+P 13000 4225
+F 0 "D5" V 13054 4363 50  0000 L CNN
+F 1 "FSV8100V" V 13145 4363 50  0000 L CNN
+F 2 "DC_LOAD_V02:FSV8100V" H 13000 4025 50  0001 C CNN
+F 3 "" H 13000 4025 50  0001 C CNN
+	1    13000 4225
+	0    1    1    0   
+$EndComp
+$Comp
+L DC_LOAD_V02:FSV8100V D6
+U 1 1 5F482B8E
+P 14000 5475
+F 0 "D6" V 14054 5613 50  0000 L CNN
+F 1 "FSV8100V" V 14145 5613 50  0000 L CNN
+F 2 "DC_LOAD_V02:FSV8100V" H 14000 5275 50  0001 C CNN
+F 3 "" H 14000 5275 50  0001 C CNN
+	1    14000 5475
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	14000 5250 13950 5250
+Wire Wire Line
+	13950 5250 13950 5325
+Wire Wire Line
+	14000 2650 14000 5250
+Wire Wire Line
+	14000 5250 14050 5250
+Wire Wire Line
+	14050 5250 14050 5325
+Connection ~ 14000 5250
+Wire Wire Line
+	14000 5825 14000 6150
+$Comp
+L DC_LOAD_V02:FSV8100V D7
+U 1 1 5F497B58
+P 15000 6700
+F 0 "D7" V 15054 6838 50  0000 L CNN
+F 1 "FSV8100V" V 15145 6838 50  0000 L CNN
+F 2 "DC_LOAD_V02:FSV8100V" H 15000 6500 50  0001 C CNN
+F 3 "" H 15000 6500 50  0001 C CNN
+	1    15000 6700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	15000 6500 14950 6500
+Wire Wire Line
+	14950 6500 14950 6550
+Wire Wire Line
+	15000 2650 15000 6500
+Wire Wire Line
+	15000 6500 15050 6500
+Wire Wire Line
+	15050 6500 15050 6550
+Connection ~ 15000 6500
+Wire Wire Line
+	15000 7050 15000 7400
+Wire Wire Line
+	3050 8025 3050 9025
+Wire Wire Line
+	3050 9025 3625 9025
+Connection ~ 3050 8025
+Wire Wire Line
+	3050 8025 3625 8025
+Wire Wire Line
+	3050 9025 3050 10025
+Wire Wire Line
+	3050 10025 3625 10025
+Connection ~ 3050 9025
+Wire Wire Line
+	5325 3825 4625 3825
+Text GLabel 12075 4350 2    50   Output ~ 0
+SHUNT1+
+Text GLabel 13075 5600 2    50   Output ~ 0
+SHUNT2+
+Text GLabel 14075 6850 2    50   Output ~ 0
+SHUNT3+
+Text GLabel 15075 8100 2    50   Output ~ 0
+SHUNT4+
+$Comp
+L Device:C C21
+U 1 1 5F47998D
+P 7800 5200
+AR Path="/5F3F34D3/5F47998D" Ref="C21"  Part="1" 
+AR Path="/5F40DB5F/5F47998D" Ref="C?"  Part="1" 
+F 0 "C21" V 7850 5000 50  0000 L CNN
+F 1 "10u, 25V" V 7850 5275 50  0000 L CNN
+F 2 "Jlib_Packages:0805_2012Metric_Reflow" H 7838 5050 50  0001 C CNN
+F 3 "~" H 7800 5200 50  0001 C CNN
+	1    7800 5200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7650 5200 7325 5200
+Wire Wire Line
+	7325 5200 7325 4875
+Wire Wire Line
+	7950 5200 8750 5200
+$Comp
+L Device:C C22
+U 1 1 5F480892
+P 7800 6450
+AR Path="/5F3F34D3/5F480892" Ref="C22"  Part="1" 
+AR Path="/5F40DB5F/5F480892" Ref="C?"  Part="1" 
+F 0 "C22" V 7850 6250 50  0000 L CNN
+F 1 "10u, 25V" V 7850 6525 50  0000 L CNN
+F 2 "Jlib_Packages:0805_2012Metric_Reflow" H 7838 6300 50  0001 C CNN
+F 3 "~" H 7800 6450 50  0001 C CNN
+	1    7800 6450
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7650 6450 7325 6450
+Wire Wire Line
+	7325 6450 7325 6125
+Wire Wire Line
+	7950 6450 8750 6450
+$Comp
+L Device:C C23
+U 1 1 5F487A23
+P 7800 7700
+AR Path="/5F3F34D3/5F487A23" Ref="C23"  Part="1" 
+AR Path="/5F40DB5F/5F487A23" Ref="C?"  Part="1" 
+F 0 "C23" V 7850 7500 50  0000 L CNN
+F 1 "10u, 25V" V 7850 7775 50  0000 L CNN
+F 2 "Jlib_Packages:0805_2012Metric_Reflow" H 7838 7550 50  0001 C CNN
+F 3 "~" H 7800 7700 50  0001 C CNN
+	1    7800 7700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7650 7700 7325 7700
+Wire Wire Line
+	7325 7700 7325 7375
+Wire Wire Line
+	7950 7700 8750 7700
+Wire Wire Line
+	7950 3950 8750 3950
+Text Label 4625 3825 0    50   ~ 0
++LM6132_VCC
+Wire Wire Line
+	5325 3825 5325 4025
+Wire Wire Line
+	6225 4725 6225 4850
+Text Label 5525 4725 0    50   ~ 0
++LM6132_VCC
+Wire Wire Line
+	6225 4725 5525 4725
+$Comp
+L DC_LOAD_V02:LM6132 U?
+U 2 1 5F4E37A2
+P 6025 5100
+AR Path="/5F4E37A2" Ref="U?"  Part="2" 
+AR Path="/61135953/5F4E37A2" Ref="U?"  Part="2" 
+AR Path="/5F40DB5F/5F4E37A2" Ref="U?"  Part="2" 
+AR Path="/5F3F34D3/5F4E37A2" Ref="U6"  Part="2" 
+F 0 "U6" H 6275 5225 50  0000 L CNN
+F 1 "LM6132" H 6275 4975 50  0000 L CNN
+F 2 "Jlib_Packages:SOIC-8_3.9x4.9mm_P1.27mm" H 6025 5400 50  0001 C CNN
+F 3 "" H 6025 5400 50  0001 C CNN
+	2    6025 5100
+	1    0    0    -1  
+$EndComp
+NoConn ~ 5875 5000
+NoConn ~ 5875 5200
+$Comp
+L power:GND #PWR?
+U 1 1 5F4E37AA
+P 6225 5350
+AR Path="/5F4E37AA" Ref="#PWR?"  Part="1" 
+AR Path="/61135953/5F4E37AA" Ref="#PWR?"  Part="1" 
+AR Path="/5F40DB5F/5F4E37AA" Ref="#PWR?"  Part="1" 
+AR Path="/5F3F34D3/5F4E37AA" Ref="#PWR035"  Part="1" 
+F 0 "#PWR035" H 6225 5100 50  0001 C CNN
+F 1 "GND" H 6230 5177 50  0001 C CNN
+F 2 "" H 6225 5350 50  0001 C CNN
+F 3 "" H 6225 5350 50  0001 C CNN
+	1    6225 5350
+	1    0    0    -1  
+$EndComp
+NoConn ~ 6575 5100
+$Comp
+L Device:R_US R25
+U 1 1 5F45C9FD
+P 11350 4050
+F 0 "R25" V 11300 4225 50  0000 C CNN
+F 1 "1KR" V 11300 3875 50  0000 C CNN
+F 2 "Jlib_Packages:0805_2012Metric_Reflow" V 11390 4040 50  0001 C CNN
+F 3 "~" H 11350 4050 50  0001 C CNN
+	1    11350 4050
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_US R26
+U 1 1 5F45D418
+P 11350 5300
+F 0 "R26" V 11300 5475 50  0000 C CNN
+F 1 "1KR" V 11300 5125 50  0000 C CNN
+F 2 "Jlib_Packages:0805_2012Metric_Reflow" V 11390 5290 50  0001 C CNN
+F 3 "~" H 11350 5300 50  0001 C CNN
+	1    11350 5300
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_US R27
+U 1 1 5F45E44A
+P 11350 6550
+F 0 "R27" V 11300 6725 50  0000 C CNN
+F 1 "1KR" V 11300 6375 50  0000 C CNN
+F 2 "Jlib_Packages:0805_2012Metric_Reflow" V 11390 6540 50  0001 C CNN
+F 3 "~" H 11350 6550 50  0001 C CNN
+	1    11350 6550
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_US R28
+U 1 1 5F45ECD0
+P 11350 7800
+F 0 "R28" V 11300 7975 50  0000 C CNN
+F 1 "1KR" V 11300 7625 50  0000 C CNN
+F 2 "Jlib_Packages:0805_2012Metric_Reflow" V 11390 7790 50  0001 C CNN
+F 3 "~" H 11350 7800 50  0001 C CNN
+	1    11350 7800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	11600 4050 11600 3850
+$Comp
+L power:GND #PWR?
+U 1 1 5F466FD3
+P 10950 4075
+AR Path="/5F466FD3" Ref="#PWR?"  Part="1" 
+AR Path="/60B6EA67/5F466FD3" Ref="#PWR?"  Part="1" 
+AR Path="/60EA1CC4/60F99ABD/5F466FD3" Ref="#PWR?"  Part="1" 
+AR Path="/60FAF7BA/5F466FD3" Ref="#PWR?"  Part="1" 
+AR Path="/610FA5C9/5F466FD3" Ref="#PWR?"  Part="1" 
+AR Path="/5F3F34D3/5F466FD3" Ref="#PWR044"  Part="1" 
+AR Path="/5F40DB5F/5F466FD3" Ref="#PWR?"  Part="1" 
+F 0 "#PWR044" H 10950 3825 50  0001 C CNN
+F 1 "GND" H 10955 3902 50  0001 C CNN
+F 2 "" H 10950 4075 50  0001 C CNN
+F 3 "" H 10950 4075 50  0001 C CNN
+	1    10950 4075
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F46F25F
+P 10950 5325
+AR Path="/5F46F25F" Ref="#PWR?"  Part="1" 
+AR Path="/60B6EA67/5F46F25F" Ref="#PWR?"  Part="1" 
+AR Path="/60EA1CC4/60F99ABD/5F46F25F" Ref="#PWR?"  Part="1" 
+AR Path="/60FAF7BA/5F46F25F" Ref="#PWR?"  Part="1" 
+AR Path="/610FA5C9/5F46F25F" Ref="#PWR?"  Part="1" 
+AR Path="/5F3F34D3/5F46F25F" Ref="#PWR045"  Part="1" 
+AR Path="/5F40DB5F/5F46F25F" Ref="#PWR?"  Part="1" 
+F 0 "#PWR045" H 10950 5075 50  0001 C CNN
+F 1 "GND" H 10955 5152 50  0001 C CNN
+F 2 "" H 10950 5325 50  0001 C CNN
+F 3 "" H 10950 5325 50  0001 C CNN
+	1    10950 5325
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10950 5300 10950 5325
+$Comp
+L power:GND #PWR?
+U 1 1 5F476EA3
+P 10950 6575
+AR Path="/5F476EA3" Ref="#PWR?"  Part="1" 
+AR Path="/60B6EA67/5F476EA3" Ref="#PWR?"  Part="1" 
+AR Path="/60EA1CC4/60F99ABD/5F476EA3" Ref="#PWR?"  Part="1" 
+AR Path="/60FAF7BA/5F476EA3" Ref="#PWR?"  Part="1" 
+AR Path="/610FA5C9/5F476EA3" Ref="#PWR?"  Part="1" 
+AR Path="/5F3F34D3/5F476EA3" Ref="#PWR046"  Part="1" 
+AR Path="/5F40DB5F/5F476EA3" Ref="#PWR?"  Part="1" 
+F 0 "#PWR046" H 10950 6325 50  0001 C CNN
+F 1 "GND" H 10955 6402 50  0001 C CNN
+F 2 "" H 10950 6575 50  0001 C CNN
+F 3 "" H 10950 6575 50  0001 C CNN
+	1    10950 6575
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10950 6550 10950 6575
+$Comp
+L power:GND #PWR?
+U 1 1 5F47EC15
+P 10950 7825
+AR Path="/5F47EC15" Ref="#PWR?"  Part="1" 
+AR Path="/60B6EA67/5F47EC15" Ref="#PWR?"  Part="1" 
+AR Path="/60EA1CC4/60F99ABD/5F47EC15" Ref="#PWR?"  Part="1" 
+AR Path="/60FAF7BA/5F47EC15" Ref="#PWR?"  Part="1" 
+AR Path="/610FA5C9/5F47EC15" Ref="#PWR?"  Part="1" 
+AR Path="/5F3F34D3/5F47EC15" Ref="#PWR047"  Part="1" 
+AR Path="/5F40DB5F/5F47EC15" Ref="#PWR?"  Part="1" 
+F 0 "#PWR047" H 10950 7575 50  0001 C CNN
+F 1 "GND" H 10955 7652 50  0001 C CNN
+F 2 "" H 10950 7825 50  0001 C CNN
+F 3 "" H 10950 7825 50  0001 C CNN
+	1    10950 7825
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10950 7800 10950 7825
+Wire Wire Line
+	11500 7800 11600 7800
+Wire Wire Line
+	11600 7800 11600 7600
+Connection ~ 11600 7600
+Wire Wire Line
+	11600 7600 14700 7600
+Wire Wire Line
+	11500 6550 11600 6550
+Wire Wire Line
+	11600 6550 11600 6350
+Connection ~ 11600 6350
+Wire Wire Line
+	11600 6350 13700 6350
+Wire Wire Line
+	11500 5300 11600 5300
+Wire Wire Line
+	11600 5300 11600 5100
+Connection ~ 11600 5100
+Wire Wire Line
+	11600 5100 12700 5100
+Connection ~ 11600 3850
+Wire Wire Line
+	11600 3850 11700 3850
+Wire Wire Line
+	10675 3850 11600 3850
+Wire Wire Line
+	11600 4050 11500 4050
+Wire Wire Line
+	10950 5300 11200 5300
+Wire Wire Line
+	10950 4050 11200 4050
+Wire Wire Line
+	10950 4050 10950 4075
+Wire Wire Line
+	10950 6550 11200 6550
+Wire Wire Line
+	10950 7800 11200 7800
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5F51C7E5
+P 7725 2650
+AR Path="/5F3CD3BC/5F51C7E5" Ref="TP?"  Part="1" 
+AR Path="/5F3F34D3/5F51C7E5" Ref="TP4"  Part="1" 
+F 0 "TP4" H 7675 2850 50  0000 L CNN
+F 1 "TestPoint" H 7783 2677 50  0001 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 7925 2650 50  0001 C CNN
+F 3 "~" H 7925 2650 50  0001 C CNN
+	1    7725 2650
+	1    0    0    -1  
+$EndComp
+Connection ~ 7725 2650
+Wire Wire Line
+	7725 2650 8575 2650
+Wire Wire Line
+	8875 2650 12000 2650
+Wire Wire Line
+	14000 9025 15000 9025
+$Comp
+L power:+12V #PWR036
+U 1 1 5F56D5D9
+P 7325 3625
+F 0 "#PWR036" H 7325 3475 50  0001 C CNN
+F 1 "+12V" H 7340 3798 50  0000 C CNN
+F 2 "" H 7325 3625 50  0001 C CNN
+F 3 "" H 7325 3625 50  0001 C CNN
+	1    7325 3625
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR037
+U 1 1 5F56E231
+P 7325 4875
+F 0 "#PWR037" H 7325 4725 50  0001 C CNN
+F 1 "+12V" H 7340 5048 50  0000 C CNN
+F 2 "" H 7325 4875 50  0001 C CNN
+F 3 "" H 7325 4875 50  0001 C CNN
+	1    7325 4875
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR038
+U 1 1 5F56E61D
+P 7325 6125
+F 0 "#PWR038" H 7325 5975 50  0001 C CNN
+F 1 "+12V" H 7340 6298 50  0000 C CNN
+F 2 "" H 7325 6125 50  0001 C CNN
+F 3 "" H 7325 6125 50  0001 C CNN
+	1    7325 6125
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR039
+U 1 1 5F56E97E
+P 7325 7375
+F 0 "#PWR039" H 7325 7225 50  0001 C CNN
+F 1 "+12V" H 7340 7548 50  0000 C CNN
+F 2 "" H 7325 7375 50  0001 C CNN
+F 3 "" H 7325 7375 50  0001 C CNN
+	1    7325 7375
+	1    0    0    -1  
+$EndComp
+$Comp
+L DC_LOAD_V02:LM358DR U7
+U 1 1 5F6E2668
+P 8900 3850
+F 0 "U7" H 9200 3975 50  0000 L CNN
+F 1 "LM358DR" H 9225 3750 50  0000 L CNN
+F 2 "Jlib_Packages:SOIC-8_3.9x4.9mm_P1.27mm" H 8950 4100 50  0001 C CNN
+F 3 "" H 8950 4100 50  0001 C CNN
+	1    8900 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L DC_LOAD_V02:LM358DR U7
+U 2 1 5F6E3285
+P 8900 5100
+F 0 "U7" H 9175 5225 50  0000 L CNN
+F 1 "LM358DR" H 9200 5000 50  0000 L CNN
+F 2 "Jlib_Packages:SOIC-8_3.9x4.9mm_P1.27mm" H 8950 5350 50  0001 C CNN
+F 3 "" H 8950 5350 50  0001 C CNN
+	2    8900 5100
+	1    0    0    -1  
+$EndComp
+Connection ~ 8750 3950
+Connection ~ 8750 5200
+$Comp
+L DC_LOAD_V02:LM358DR U8
+U 1 1 5F6EE58F
+P 8900 6350
+F 0 "U8" H 9175 6475 50  0000 L CNN
+F 1 "LM358DR" H 9200 6250 50  0000 L CNN
+F 2 "Jlib_Packages:SOIC-8_3.9x4.9mm_P1.27mm" H 8950 6600 50  0001 C CNN
+F 3 "" H 8950 6600 50  0001 C CNN
+	1    8900 6350
+	1    0    0    -1  
+$EndComp
+Connection ~ 8750 6450
+$Comp
+L DC_LOAD_V02:LM358DR U8
+U 2 1 5F6EED0D
+P 8900 7600
+F 0 "U8" H 9175 7725 50  0000 L CNN
+F 1 "LM358DR" H 9225 7500 50  0000 L CNN
+F 2 "Jlib_Packages:SOIC-8_3.9x4.9mm_P1.27mm" H 8950 7850 50  0001 C CNN
+F 3 "" H 8950 7850 50  0001 C CNN
+	2    8900 7600
+	1    0    0    -1  
+$EndComp
+Connection ~ 8750 7700
+Text Notes 5425 1325 0    276  ~ 55
+Current Control & Vsense
+Wire Wire Line
+	1925 8025 3050 8025
+Wire Notes Line
+	7125 3250 8175 3250
+Wire Notes Line
+	8175 3250 8175 8000
+Wire Notes Line
+	8175 8000 7125 8000
+Wire Notes Line
+	7125 8000 7125 3250
+Text Notes 7150 3200 0    50   ~ 0
+Might have to remove L1\nto get these to work
+$Comp
+L Device:D D10
+U 1 1 5F6AE200
+P 3625 3775
+F 0 "D10" V 3579 3854 50  0000 L CNN
+F 1 "IN4001" V 3670 3854 50  0000 L CNN
+F 2 "" H 3625 3775 50  0001 C CNN
+F 3 "~" H 3625 3775 50  0001 C CNN
+	1    3625 3775
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3625 3575 3625 3625
+Wire Wire Line
+	3625 3925 3625 4000
+Wire Notes Line width 12 rgb(255, 0, 0)
+	3975 3600 3975 3950
+Wire Notes Line width 12 rgb(255, 0, 0)
+	3975 3950 3500 3950
+Wire Notes Line width 12 rgb(255, 0, 0)
+	3500 3950 3500 3600
+Wire Notes Line width 12 rgb(255, 0, 0)
+	3500 3600 3975 3600
+$EndSCHEMATC
